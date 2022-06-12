@@ -223,7 +223,6 @@ class MirrorListener:
             buttons = ButtonMaker()
             link = short_url(link)
             buttons.buildbutton("☁️ Drive Link", link)
-            buttons.buildbutton("🌐 CHANNEL", t.me/persialeech_bot)
             LOGGER.info(f'Done Uploading {name}')
             if INDEX_URL is not None:
                 url_path = rutils.quote(f'{name}')
